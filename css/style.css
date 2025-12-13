@@ -1,0 +1,186 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: #fff;
+}
+/* HERO SECTION */
+/* 🌿 HERO SECTION */
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), /* light fade overlay */
+    url("../images/img.png") center/cover no-repeat; /* your image path */
+  height: 130vh; /* covers about half the screen height */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+/* Text styling */
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  color: #fdfdfd;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+/* Button styling for extra pop 💚 */
+.hero .btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  transition: all 0.3s ease;
+}
+
+.hero .btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.hero .btn-outline-success:hover {
+  background-color: #28a745;
+  color: white;
+}
+
+.feature-icon {
+  font-size: 2rem;
+  color: #198754;
+}
+section {
+  padding: 80px 0;
+}
+footer {
+  background: #198754;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+.btn-success {
+  background-color: #198754;
+  border: none;
+}
+.btn-success:hover {
+  background-color: #146c43;
+}
+
+/* 🌿 ABOUT PAGE STYLES */
+
+.hero-about {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), /* light fade overlay */
+    url("../images/about-bg.png") center/cover no-repeat; /* your image path */
+  height: 130vh; /* covers about half the screen height */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  padding: 0 20px;
+}
+
+/* Section Titles */
+.about-section {
+  color: #28a745;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-left: 35rem;
+}
+
+.about-section p {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+/* Story Section */
+.story-section {
+  background: #f9fff9;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+  margin-bottom: 3rem;
+}
+
+/* Why Use PlanMyPlate Section */
+.why-section {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.why-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.why-section li {
+  margin: 0.6rem 0;
+  font-size: 1.05rem;
+  color: #333;
+}
+
+.why-section li::before {
+  content: "✔️ ";
+  color: #28a745;
+}
+
+/* Meet the Team Section */
+.team-section {
+  background: #f5fdf5;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-top: 3rem;
+}
+
+.team-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.25);
+}
+
+.team-section h5 {
+  color: #28a745;
+  font-weight: 600;
+  margin-top: 0.8rem;
+}
+
+.team-section p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Section spacing */
+.about-section {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .team-photo {
+    width: 120px;
+    height: 120px;
+  }
+}
+
